@@ -5,7 +5,7 @@ def computer_choice():
 
 def determine_winner(player, computer):
     if player == computer:
-        return "It's a tie!"
+        return "Draw!"
     elif (player == "rock" and computer == "scissors") or \
          (player == "paper" and computer == "rock") or \
          (player == "scissors" and computer == "paper"):
